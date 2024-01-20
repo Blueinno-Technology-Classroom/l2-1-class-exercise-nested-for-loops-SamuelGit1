@@ -64,3 +64,14 @@ for i in range(5):
     print(int("1" * (i + 1)) ** 2)
 
 ##################################################
+'''
+Challenge
+'''
+
+def draw_cake(segments, top_width, height):
+    for i in range(segments):
+        for j in range(height):
+            print(" " * ((segments - i) * 4), end="")
+            print("*" * (top_width + i * 8))
+
+##################################################
